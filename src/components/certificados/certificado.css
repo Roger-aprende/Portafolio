@@ -1,0 +1,42 @@
+.slider{
+    text-align: center;
+}
+
+.slider__title{
+    padding: 1rem;
+    font-family: 'poppins';
+    color: #fff; 
+}
+
+.slider__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+}
+
+.slider-img{
+    --size: 70% ;
+    display: inline-block;
+    width: var(--size);
+    padding: .5rem;
+    object-fit: cover;
+    border-radius: 5px;
+    box-shadow: 4px 5px 25px #0000006b, -4px -5px 25px #0000006b;
+    transition: box-shadow ease 1s;
+    opacity: .9;
+    cursor: crosshair;
+
+
+    /* &:hover{
+        box-shadow: none;
+
+    } */
+}
+
+.slider-icons{
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+

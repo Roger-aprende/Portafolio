@@ -1,0 +1,163 @@
+/* Deberia estar las fuentes aqui? */
+:root{
+    --background-main: linear-gradient(rgba(158, 185, 238, 0.3), rgba(158, 185, 238, 0.3)), url(/src/assets/img/Background.jpg) center center / cover;
+}
+
+.header{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh;
+    background: var(--background-main) ;
+    border-radius: 0 0 20% 0;
+
+    & .title, 
+    & .separator{
+        line-height: 2rem;   
+        font-family: 'poppins';
+        color: #fff;
+        font-weight: 700;
+        text-shadow:0px 5px 5px #000;
+
+    }
+    
+
+    & .title{
+        line-height: 2rem;   
+    }
+
+    & .seperador{
+        font-size: 1.3rem;
+    }
+
+    & .animation{
+        margin-top: 1.5rem;
+        font-family: 'freeline';
+        color: #fff;
+        text-shadow:0px 8px 10px #000;
+
+
+        animation-name: alumbrado;
+        animation-duration: 3s;
+        animation-timing-function:  linear;
+        animation-delay: 1ms;
+        animation-direction: alternate;
+        animation-fill-mode: both;
+        animation-iteration-count: infinite;
+        animation-play-state: running;
+    }
+
+    & .animation-on{
+        color: #32BC38;
+    }
+
+    & .animation-of{
+        color: #fff;
+    }
+}
+
+
+.box-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.letters{
+    color: #32BC38;
+}
+
+.img{
+    display: none;
+}
+
+/* =======KeyFames======== */
+
+@keyframes logoInvertido {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(-18deg);
+    }
+}
+
+
+@keyframes efectoLetter{
+    0%{ color: #32BC38;}
+    100%{ color:#fff}
+}
+
+
+/* =======Media querys======== */
+
+@media (min-width:380px){
+    .img{
+        display: block;
+        position: absolute;
+        --size: 7.5rem;
+        --time-animation: 700ms;
+        --delay-animation: 1s;
+        --position-top: 15%;
+        --posttion-right-left: 3%;
+        width: var(--size);
+        height: var(--size);
+    }
+    
+    
+    .img-1{
+        top: var(--position-top);
+        left: var(--posttion-right-left);
+        animation: logoInvertido var(--time-animation) infinite alternate var(--delay-animation) linear both running;
+    }
+    
+    
+    .img-2{
+        top: var(--position-top);
+        right:  var(--posttion-right-left);
+        animation: logo var(--time-animation) infinite alternate var(--delay-animation) linear both running;
+    }
+}
+
+
+@media (min-width:700px){
+    :root{
+        font-size: 18px;
+    }
+    .img{
+        --posttion-right-left: 20%;       
+    }
+}
+
+@media (min-width:1000px){
+    :root{
+        font-size: 24px;
+    }
+    .img{
+        --posttion-right-left: 18%;       
+    }
+}
+
+
+@media (min-width:1200px){
+    :root{
+        font-size: 28px;
+    }
+    .img{
+        --posttion-right-left: 15%;       
+    }
+}
+
+
+
+@keyframes logo {
+    0% {
+    transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(18deg);
+    }
+}

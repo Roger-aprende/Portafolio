@@ -1,0 +1,38 @@
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: .3rem;
+    font-family: 'lexend deca';
+    font-size: .8rem;
+    text-align: center;
+    font-weight: 650;
+}
+
+.button__github,
+.button__demo{
+    width: 50%;
+    padding: .4rem 0;
+    color: #fff;
+    border-radius: 3px;
+    box-shadow: 0px 5px 5px #00000077;
+    border: none;
+    transition: box-shadow ease 2ms;
+    
+
+    &:hover{
+        cursor: pointer;
+        box-shadow: 0 3px 5px #00000077;
+    }
+
+    &:active{
+        box-shadow: none;
+    }
+}
+
+.button__github{
+    background-color: gray;
+}
+
+.button__demo{
+    background-color: #242323;
+}

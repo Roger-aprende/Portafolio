@@ -1,0 +1,33 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    gap: .3rem;
+    margin-top: 8rem;
+    padding:1.5rem 1rem;
+    background-color: hsl(202, 70%, 78%, 0.15);
+}
+
+.footer__text{
+    font-family: 'lexend deca';
+    font-weight: 200;
+    font-size: .8rem;
+    font-style: italic;
+    color:#fff;
+}
+
+.footer__icon{   
+    font-size: 1rem;
+}
+
+.footer__contacto{
+    font-style: italic;
+    font-weight: 300;
+    color: #fff;
+    text-decoration: underline #0BA5BE 2px;
+    transition: text-decoration ease 1s;
+
+    &:hover{
+        text-decoration: underline #000 2px;
+    }
+}
+
