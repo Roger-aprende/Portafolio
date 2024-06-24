@@ -38,5 +38,10 @@
     color: #fff;
     font-size: 2.5rem;
     cursor: pointer;
+    transition: color 2ms ease ;
+
+        &:active{
+            color: #b8b5b5;
+        }
 }
 
