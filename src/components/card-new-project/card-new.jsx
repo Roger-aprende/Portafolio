@@ -6,7 +6,7 @@ export function CardNew({children, img, fecha, description}){
     return(
       
             <article className="card-project-new">
-                <img src={`/src/assets/img/proyectos/${img}`} alt="hola" className='card-project-new__img'/>
+                <img src={`/public/img/proyectos/${img}`} alt="hola" className='card-project-new__img'/>
 
                 <footer className='card-project-new__layer'>
 
