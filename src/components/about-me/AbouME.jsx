@@ -12,7 +12,7 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                     Descubrí mi pasión hace 3 años amo y me llena mucho como persona, <span className="about-me__highlight">hacer ideas realidad</span> cuando aprendí que la <span className="span span-grey">programación</span> me permite plasmar lo que hay en mi mente, decidí luchar, crecer y aprender para lograr ser un programador que sea capaz de crear lo que pase por mi <span className="span span-yellow">imaginación</span>
                 </p>
                     
-                <img src={`public/img/${who_I}`} alt=""  className='about-me__I'/>
+                <img src={`./img/${who_I}`} alt=""  className='about-me__I'/>
 
                 <p className="about-me__text">
                      Me llamo <span className="span span-green">Roger Salazar</span> cuando inicie este viaje las circunstancias no estaban a mi favor <span className="about-me__highlight"> no contaba con apoyo, no tenía recursos</span>, y lo más importante para esta carrera no contaba con <span className="span span-blue">internet</span> tenía miedo a dedicarle tiempo a empezar algo que ni siquiera podía practicarlo y perder mi tiempo
@@ -34,9 +34,9 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </p>
 
                 <div className="about-me__memories">
-                    <img src={`/public/img/${memo_1}`} alt="hola" className="box1"/>
-                    <img src={`/public/img/${memo_2}`} alt="hola" className="box2"/>
-                    <img src={`/public/img/${memo_3}`} alt="hola" className="box3"/>
+                    <img src={`./img/${memo_1}`} alt="hola" className="box1"/>
+                    <img src={`./img/${memo_2}`} alt="hola" className="box2"/>
+                    <img src={`./img/${memo_3}`} alt="hola" className="box3"/>
                 </div>
 
                 <p className="about-me__text">

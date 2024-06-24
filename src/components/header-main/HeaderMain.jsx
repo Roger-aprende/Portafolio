@@ -2,9 +2,8 @@ import '../header-main/header-main.css';
 import { useState } from 'react';
 
 export function HeaderMain (){
-    let imgIz = "/public/img/logo-deku-iz.png";
-    let imgDe = "/public/img/logo-deku-de.png";
-
+    let imgIz = "./img/logo-deku-iz.png";
+    let imgDe = "./img/logo-deku-de.png";
 
     return(
         <header className="header">
