@@ -14,7 +14,6 @@ let iconReact = <i className="devicon-react-original colored"> </i>;
 let iconJsTwo = <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  className="icons-tecnologias"/>;
 
 
-
 root.render(
     <>    
         <HeaderMain/>
