@@ -40,7 +40,7 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </div>
 
                 <p className="about-me__text">
-                        Por ello decidí crecer en silencio, pero ya es hora de demostrar de que soy capaz, quiero agradecerle a <a href="https://manz.dev/" target="_blank" title="Visita su web" className="span span-purple">MANZ</a><a href="https://www.youtube.com/@DorianDesings" title="Visita su web" className="span span-black" >DORIAN</a><a href="https://jonmircha.com/" target="_blank" title="Visita su web" className="span span-orange">JONMIRCHA</a><a href="https://midu.dev/" target="_blank" title="Visita su web" className="span span-blue">MINUDEV</a> a todas esas personas que subieron cursos gratuitos de los cuales aprendí
+                        Por ello decidí crecer en silencio, pero ya es hora de demostrar de que soy capaz, quiero agradecerle a <a href="https://manz.dev/" target="_blank" title="Visita su web" className="span span-purple">MANZ</a> <a href="https://www.youtube.com/@DorianDesings" title="Visita su web" className="span span-black">DORIAN</a> <a href="https://jonmircha.com/" target="_blank" title="Visita su web" className="span span-orange">JONMIRCHA</a> <a href="https://midu.dev/" target="_blank" title="Visita su web" className="span span-blue">MIDUDEV</a> a todas esas personas que subieron cursos gratuitos de los cuales aprendí
                 </p>
 
                 <p className="about-me__text">

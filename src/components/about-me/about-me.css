@@ -88,11 +88,9 @@
     font-weight: 300 ;
     clip-path: polygon(0 15%, 100% 0%, 100% 85%, 0 100%);
     color:#fff;
+    overflow-wrap: break-word;
+    white-space: nowrap;
 }
-
-/* a:hover{
-    text-decoration: underline 1px #702470;
-} */
 
 .span-green{
     color: #fff;
@@ -110,7 +108,7 @@
 
 .span-yellow{
     background-color: #ffff48;
-    color: #000;
+    color: #000;    
 }
 
 .span-orange{

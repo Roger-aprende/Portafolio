@@ -3,8 +3,8 @@ import { useState } from "react";
 
 export function Carrusel({img1, img2}){
 let img = [
-    `/public/img/certificados/${img1}`,
-    `/public/img/certificados/${img2}`
+    `./img/certificados/${img1}`,
+    `./img/certificados/${img2}`
 ];
 
 const [imgInit, setImg] = useState(0);

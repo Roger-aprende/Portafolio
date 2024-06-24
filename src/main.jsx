@@ -72,7 +72,7 @@ root.render(
 
 
 
-         <Footer tecno1={'HTML'} tecno2={'CSS'} tecno3={'REACT'}> 
+         <Footer> 
                 {iconReact}
          </Footer>
     </>

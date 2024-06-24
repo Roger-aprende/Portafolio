@@ -1,6 +1,6 @@
 /* Deberia estar las fuentes aqui? */
 :root{
-    --background-main: linear-gradient(rgba(158, 185, 238, 0.3), rgba(158, 185, 238, 0.3)), url(/public/img/Background.svg) center center / cover;
+    --background-main: linear-gradient(rgba(158, 185, 238, 0.3), rgba(158, 185, 238, 0.3)), url(./img/Background.svg) center center / cover;
 }
 
 .header{
