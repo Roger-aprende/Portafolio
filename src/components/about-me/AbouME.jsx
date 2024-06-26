@@ -30,7 +30,7 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </p> 
                 
                 <p className="about-me__text">
-                  Aprendí <span className="span span-orange">HTML</span> Y <span className="span span-blue">CSS</span> sin internet, practicaba sin luz, caminaba con mi pc a todos lados para practicar, muchos cuando le hablaba de lo que hacia pensaban que era una locura y que tenia que ir a la universidad para ese futuro
+                  Aprendí <span className="span span-orange">HTML</span> Y <span className="span span-blue">CSS</span> sin internet, practicaba sin luz, caminaba con mi pc a todos lados para practicar, muchos cuando le hablaba de lo que hacia pensaban que era una locura, que no iba a poder lograrlo por mis recursos
                 </p>
 
                 <div className="about-me__memories">
@@ -44,7 +44,7 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </p>
 
                 <p className="about-me__text">
-                        También a dios por regalarme esta historia la cual la quiero llevar al rededor del <span className="span span-green">mundo</span> para ser un ejemplo más <span className="span span-yellow">que todo es posible</span> soy venezolano me llamo Roger Salazar y las circunstancias no dicen quien serás lo dicen tus decisiones.
+                        También a DIOS por regalarme esta historia la cual la quiero llevar alrededor del <span className="span span-green">mundo</span> para ser un ejemplo más <span className="span span-yellow">que todo es posible</span> soy venezolano me llamo Roger Salazar y las circunstancias no dicen quien serás lo dicen tus decisiones.
                 </p>
                 
             </header>
