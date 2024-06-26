@@ -45,14 +45,19 @@ root.render(
                 </article> 
 
                 <article className='card'>
-                    <CardNew img="photo.svg" fecha="03-02-2024"  description={`Un template totalmente funcional de fotografo, donde puedes mostrar toda tu galeria de buenas fotos y experiencia, contiene un slider de imagens que resalta el toque profesional de la web,la web es totalmente responsiva. Esta fue diseñada y desarrollada por mi`}>
+                    <CardNew img="photo.svg" fecha="03-02-2024"  description={`Un template totalmente funcional de fotografo, donde puedes mostrar toda tu galeria de buenas fotos y experiencia, contiene un slider de imagens que resalta el toque profesional de la web,la web es totalmente responsiva (esto quiere decir que se adapta a todo tipo de pantallas). Esta fue diseñada y desarrollada por mi`}>
                         {iconHtml}
                         {iconCss}
                         {iconJsTwo}
                     </CardNew>
 
                     <div className="card__button">
-                        <Buttons title1="Github" title2="Demo" />
+                        <Buttons 
+                            title1="Github" 
+                            title2="Demo" 
+                            link_github="https://github.com/Roger-aprende/template--photo"
+                                              
+                            />
                     </div>                
                 </article> 
 
