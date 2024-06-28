@@ -10,7 +10,7 @@ import { Footer } from './components/footer/Footer.jsx'
 let root = ReactDOM.createRoot(document.getElementById('root'))
 let iconCss = <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"   className="icons-tecnologias"/>
 let iconHtml = <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"  className="icons-tecnologias"/>
-let iconReact = <i className="devicon-react-original colored"> </i>;
+let iconReact = <i className="devicon-react-original colored"></i>;
 let iconJsTwo = <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"  className="icons-tecnologias"/>;
 
 
