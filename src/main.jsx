@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { HeaderMain } from './components/header-main/HeaderMain.jsx'
 import { Carrusel } from './components/certificados/Certificado.jsx'
-import { CardNew } from './components/card-new-project/card-new.jsx'
+import { CardNew } from './components/card-project/card-project.jsx'
 import { Buttons } from './components/buttons/buttons.jsx'
 import { AbuotMe } from './components/about-me/AbouME.jsx'
 import { Footer } from './components/footer/Footer.jsx'
@@ -58,7 +58,7 @@ root.render(
                             link_github="https://github.com/Roger-aprende/template--photo"
                                               
                             />
-                    </div>                
+                    </div>   
                 </article> 
 
         </main>

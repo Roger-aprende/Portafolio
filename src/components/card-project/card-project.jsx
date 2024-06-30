@@ -1,16 +1,15 @@
-import '../card-new-project/card-new.css'
-// import { Buttons } from '../../components/buttons/buttons.jsx'
+import '../card-project/card-project.css'
 
 export function CardNew({children, img, fecha, description}){
     
     return(
       
-            <article className="card-project-new">
-                <img src={`./img/proyectos/${img}`} alt="hola" className='card-project-new__img'/>
+            <article className="card-project">
+                <img src={`./img/proyectos/${img}`} alt="hola" className='card-project__img'/>
 
-                <footer className='card-project-new__layer'>
+                <footer className='card-project__layer'>
 
-                    <div className="card-project-new__tecno">
+                    <div className="card-project__tecno">
                         {children}
                     </div>
 

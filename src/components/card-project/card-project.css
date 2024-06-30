@@ -1,16 +1,18 @@
-.card-project-new{
+.card-project{
     position: relative;
     --size: 18.75rem;
     width: var(--size);
     height: var(--size);
     overflow: hidden;
+    box-shadow: 5px 3px 5px #00000083;
 
-    &:hover .card-project-new__layer{
+
+    &:hover .card-project__layer{
         top: 0;
     }
 }
 
-.card-project-new__img{
+.card-project__img{
     position: relative;
     --size: 100%;
     width: var(--size);
@@ -20,7 +22,7 @@
 }
 
 
-.card-project-new__layer{
+.card-project__layer{
     position: absolute;
     top: 86%;
     width: 100%;
@@ -30,7 +32,7 @@
     transition: top ease 1s;
 }
 
-.card-project-new__tecno{
+.card-project__tecno{
     display: flex;
     gap: .5rem;
     opacity: 1;
