@@ -26,7 +26,7 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </p>
 
                 <p className="about-me__text">
-                    Programaba en casa de conocidos,<span className="about-me__highlight"> <span className="span span-grey">descargaba</span> los tutoriales, para repasarlos en donde pudiera,</span>  ya que en mi casa no podía estar siempre, a la vez trabaja para conseguir mejores herramientas e internet 
+                    Programaba en casa de conocidos,<span className="about-me__highlight"> <span className="span span-grey">descargaba</span> los tutoriales, para repasarlos en donde pudiera,</span>  ya que en mi casa no podía estar siempre, a la vez trabajaba para conseguir mejores herramientas e internet 
                 </p> 
                 
                 <p className="about-me__text">
@@ -40,11 +40,11 @@ export function AbuotMe ({title, memo_1, memo_2, memo_3 ,who_I}){
                 </div>
 
                 <p className="about-me__text">
-                        Por ello decidí crecer en silencio, pero ya es hora de demostrar de que soy capaz, quiero agradecerle a <a href="https://manz.dev/" target="_blank" title="Visita su web" className="span span-purple">MANZ</a> <a href="https://www.youtube.com/@DorianDesings" title="Visita su web" className="span span-black">DORIAN</a> <a href="https://jonmircha.com/" target="_blank" title="Visita su web" className="span span-orange">JONMIRCHA</a> <a href="https://midu.dev/" target="_blank" title="Visita su web" className="span span-blue">MIDUDEV</a> a todas esas personas que subieron cursos gratuitos de los cuales aprendí
+                        Por ello decidí crecer en silencio, pero ya es hora de demostrar de que soy capaz, quiero agradecerle a <a href="https://manz.dev/" target="_blank" title="Visita su web" className="span span-purple">MANZ</a> <a href="https://www.youtube.com/@DorianDesings" title="Visita su web" className="span span-black">DORIAN</a> <a href="https://jonmircha.com/" target="_blank" title="Visita su web" className="span span-orange">JONMIRCHA</a> <a href="https://midu.dev/" target="_blank" title="Visita su web" className="span span-blue">MIDUDEV</a> y a todas esas personas que subieron cursos gratuitos de los cuales aprendí
                 </p>
 
                 <p className="about-me__text">
-                        También a DIOS por regalarme esta historia la cual la quiero llevar alrededor del <span className="span span-green">mundo</span> para ser un ejemplo más <span className="span span-yellow">que todo es posible</span> soy venezolano me llamo Roger Salazar, y las circunstancias no dicen quien serás, lo dicen tus decisiones.
+                        También a DIOS por regalarme esta historia la cual quiero llevar alrededor del <span className="span span-green">mundo</span> para ser un ejemplo más <span className="span span-yellow">que todo es posible</span> soy venezolano me llamo Roger Salazar, y las circunstancias no dicen quien serás, lo dicen tus decisiones.
                 </p>
                 
             </header>

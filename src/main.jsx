@@ -28,7 +28,7 @@ root.render(
                     </CardNew>
 
                     <div className="card__button">
-                        <Buttons title1="Github" title2="Demo" link_github={"https://github.com/Roger-aprende/Calculadora"} link_demo={"https://roger-aprende.github.io/Calculadora/"}/>
+                        <Buttons title1="Codigo" title2="Web" link_github={"https://github.com/Roger-aprende/Calculadora"} link_demo={"https://roger-aprende.github.io/Calculadora/"}/>
                     </div>                
                 </article>    
 
@@ -40,7 +40,7 @@ root.render(
                     </CardNew>
 
                     <div className="card__button">
-                        <Buttons title1="Github" title2="Demo" />
+                        <Buttons title1="Codigo" title2="Web" />
                     </div>                
                 </article> 
 
@@ -53,8 +53,8 @@ root.render(
 
                     <div className="card__button">
                         <Buttons 
-                            title1="Github" 
-                            title2="Demo" 
+                            title1="Codigo" 
+                            title2="Web" 
                             link_github="https://github.com/Roger-aprende/template--photo"
                                               
                             />
