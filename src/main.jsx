@@ -65,7 +65,7 @@ root.render(
 
         
         <aside className="slider-certificados">
-            <Carrusel img1="cursa.png" img2="movistar.png"/>
+            <Carrusel img1="movistar.webp" img2="cursa.webp"/>
         </aside>
 
         <AbuotMe title="Sobre mi" 
