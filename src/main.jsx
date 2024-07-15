@@ -21,7 +21,7 @@ root.render(
             <main className="container-projects">
 
                 <article className='card'>
-                    <CardNew img="calc.svg" fecha="08-01-2024" description="Una calculadora tototalmente funcional, con lindos estilos que me representan">
+                    <CardNew img="calc.webp" fecha="08-01-2024" description="Una calculadora tototalmente funcional, con lindos estilos que me representan">
                         {iconHtml}
                         {iconCss}
                         {iconJsTwo}
@@ -39,7 +39,7 @@ root.render(
 
 
                 <article className='card'>
-                    <CardNew img="huddle.svg" fecha="12-04-2022"  description={`Una web atractiva que hice como reto para medir mis habilidades como front-end, el desarrollo de la web fue hecho totalmente por mi, las imagenes el diseño le pertenece a front-mentor una plataforma para medir tus habilidades como dev`}>
+                    <CardNew img="huddle.webp" fecha="12-04-2022"  description={`Una web atractiva que hice como reto para medir mis habilidades como front-end, el desarrollo de la web fue hecho totalmente por mi, las imagenes el diseño le pertenece a front-mentor una plataforma para medir tus habilidades como dev`}>
                         {iconHtml}
                         {iconCss}
                     </CardNew>
@@ -55,7 +55,7 @@ root.render(
                 </article> 
 
                 <article className='card'>
-                    <CardNew img="photo.svg" fecha="03-02-2024"  description={`Un template totalmente funcional de fotografo, donde puedes mostrar toda tu galeria de buenas fotos y experiencia, contiene un slider de imagens que resalta el toque profesional de la web,la web es totalmente responsiva (esto quiere decir que se adapta a todo tipo de pantallas). Esta fue diseñada y desarrollada por mi`}>
+                    <CardNew img="photo.webp" fecha="03-02-2024"  description={`Un template totalmente funcional de fotografo, donde puedes mostrar toda tu galeria de buenas fotos y experiencia, contiene un slider de imagens que resalta el toque profesional de la web,la web es totalmente responsiva (esto quiere decir que se adapta a todo tipo de pantallas). Esta fue diseñada y desarrollada por mi`}>
                         {iconHtml}
                         {iconCss}
                         {iconJsTwo}
@@ -79,10 +79,10 @@ root.render(
         </aside>
 
         <AbuotMe title="Sobre mi" 
-                 memo_1="memories_1.jpg"
-                 memo_2="memories_2.png"
-                 memo_3="memories_3.jpg"
-                 who_I={"perfil.jfif"}
+                 memo_1="memories_1.webp"
+                 memo_2="memories_2.webp"
+                 memo_3="memories_3.webp"
+                 who_I={"perfil.webp"}
                 />
 
 
