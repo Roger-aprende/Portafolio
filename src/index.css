@@ -121,7 +121,7 @@ a{
   
 }
 
-/* ==Animaciones== */
+/* ==Medias querys== */
 @media screen and (min-width: 1400px){
   .container-projects{
     gap: 5rem 1rem;
