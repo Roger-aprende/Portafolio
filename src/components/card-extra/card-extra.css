@@ -1,0 +1,21 @@
+@media screen and (min-width: 1000px){
+    .card__extra{
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        --size: 18.75rem;
+        width: var(--size);
+        height: var(--size);
+        background-color: hsl(202, 70%, 78%, 0.15);
+        overflow: hidden;
+        box-shadow: 5px 8px 5px #00000083;
+    }
+    
+    .card__extra-icon{
+        --size: 4rem;
+        width: var(--size);
+        height: var(--size);    
+    }
+    
+}
+
