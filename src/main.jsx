@@ -28,7 +28,12 @@ root.render(
                     </CardNew>
 
                     <div className="card__button">
-                        <Buttons title1="Codigo" title2="Web" link_github={"https://github.com/Roger-aprende/Calculadora"} link_demo={"https://roger-aprende.github.io/Calculadora/"}/>
+                        <Buttons 
+                            title1="Codigo" 
+                            title2="Web" 
+                            link_github={"https://github.com/Roger-aprende/Calculadora"} 
+                            link_demo={"https://roger-aprende.github.io/Calculadora/"}
+                        />
                     </div>                
                 </article>    
 
@@ -40,7 +45,12 @@ root.render(
                     </CardNew>
 
                     <div className="card__button">
-                        <Buttons title1="Codigo" title2="Web" />
+                        <Buttons 
+                            title1="Codigo" 
+                            title2="Web" 
+                            link_github={"https://github.com/Roger-aprende/Huddle-Front-Mentor-"}
+                            link_demo={"https://huddle-front-mentor.vercel.app/"}
+                        />
                     </div>                
                 </article> 
 
@@ -56,8 +66,8 @@ root.render(
                             title1="Codigo" 
                             title2="Web" 
                             link_github="https://github.com/Roger-aprende/template--photo"
-                                              
-                            />
+                            link_demo={"https://template-photo-qj0v9nno6-roger-aprendes-projects.vercel.app/"}                      
+                        />
                     </div>   
                 </article> 
 
